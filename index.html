@@ -1,0 +1,61 @@
+
+<!-- V A P O R | R A I L | M A P -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>V A P O R | R A I L | M A P</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+
+
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+
+
+    <link href='style.css' rel='stylesheet' />
+
+</head>
+
+
+<body>
+
+  <div id='map'></div>
+
+
+  <div id="show_info" >
+  <p><b><i>V A P O R | R A I L | M A P</i></b> <a href="http://jamaps.github.io/" target="_blank">by Jeff Allen</a> </p>
+</div>
+
+
+<div id='info' onclick="ShowDiv()"><p><b>x</b></p></div>
+
+
+<div id="show_fly1" >
+
+    <p>lng:
+    <input type="text" maxlength="8" id ="lng" value="0" />
+    lat:
+    <input type="text" maxlength="8" id ="lat" value="0" />
+    <b> <span id="search" onclick="Trip()">Traveller</span></b>
+    </p>
+
+
+</div>
+
+<div id='fly1' onclick="ShowDivFly1()"><p><b>x</b></p></div>
+
+<div id='fly2' onclick="Fly2()"><p><b>f</b></p></div>
+
+
+
+
+
+
+<script src='map.js'>
+</script>
+
+</body>
+</html>
