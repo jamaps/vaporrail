@@ -12,15 +12,23 @@ var places = [
   ["San Francisco",-122.445,37.722,-45],
   ["Portland",-122.672,45.531,-45],
   ["Zagreb",15.9830,45.8106,-10],
-  ["Ottawa",-75.649,45.416,-45]
-
+  ["Ottawa",-75.649,45.416,-45],
+  ["Cincinatti",-84.5145,39.109,-101.5],
+  ["Madrid",-3.689,40.409,-1],
+  ["Fort Worth",-97.04, 32.897, 90],
+  ["Zurich",8.5464, 47.3746, 90],
+  ["Istanbul",28.9554, 41.0072, 180],
+  ["Brooklyn",-73.931,40.750, 90],
+  ["Porto",-8.6106,41.1445, 189],
+  ["Pittsburgh",-80,40.43, -90],
+  ["Guangzhou",113.299,23.1365, 0]
 ]
 
 var randomnumber = Math.floor(Math.random() * (places.length));
 
 var start_place = places[randomnumber]
 
-// var start_place = ["Ottawa",-75.649,45.416,-45]
+
 
 
 // places.length;
