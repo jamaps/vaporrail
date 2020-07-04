@@ -21,12 +21,17 @@ var places = [
   ["Brooklyn",-73.931,40.750, 90],
   ["Porto",-8.6106,41.1445, 189],
   ["Pittsburgh",-80,40.43, -90],
-  ["Guangzhou",113.299,23.1365, 0]
+  ["Guangzhou",113.299,23.1365, 0],
+  ["Dubai",55.131,25.120,40],
+  ["Athens",23.719,37.977,1],
+  ["Munich",11.558,48.141,-83]
 ]
 
 var randomnumber = Math.floor(Math.random() * (places.length));
 
 var start_place = places[randomnumber]
+
+
 
 
 
@@ -39,7 +44,7 @@ var map = new mapboxgl.Map({
     container: 'map', // div id
     style: 'mapbox://styles/jeffallen/ckbo0t10x1pj61iqsiedcoug1',
     center: [start_place[1],start_place[2]], // starting location
-    zoom: 15.01, // starting zoom
+    zoom: 16.01, // starting zoom
     maxZoom: 17, // max zoom
     minZoom: 15, // max zoom
     maxPitch: 0,
